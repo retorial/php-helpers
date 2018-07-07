@@ -1,6 +1,8 @@
 <?php
 
-// either get or save json data
+// either get or save json data: if $data param is
+// null, the function just gets data from the $file
+// else the function saves the $data to the $file
 function json($file, $data = null) {
 
 	// if data is null
